@@ -27,7 +27,7 @@ const News =(props)=> {
     }
 
     useEffect(()=>{
-        document.title = `${(props.category).charAt(0).toUpperCase()+(props.category).slice(1)} - Dhaakad News`
+        document.title = `${(props.category).charAt(0).toUpperCase()+(props.category).slice(1)} - NewsEagle`
         updateNews();
         //eslint-disable-next-line
     },[])
